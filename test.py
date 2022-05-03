@@ -34,7 +34,7 @@ def number_yuanyin(url_dns):
     for i in url_dns:
         if i in "aeiou":
             n=n+1;
-    return n
+    return 0
 
 #calculate the shang
 def cal_shang(url_dns):
