@@ -66,8 +66,8 @@ def initData(filename, domainlist):
             else:
                 label = tokens[1]
             length=len(name)
-            num=number_num(name)/length
-            yuanyin=number_yuanyin(name)/length
+            num=number_num(name)
+            yuanyin=number_yuanyin(name)
             shang=cal_shang(name)
             domainlist.append(Domain(name, label, length, num, yuanyin, shang))
 
